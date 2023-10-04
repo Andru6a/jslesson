@@ -1,5 +1,5 @@
 'use strict';
-
+// lesson 18
 const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 let personalMovieDB = {
