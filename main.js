@@ -39,38 +39,6 @@ for (let i = 0; i < 2; i++){
 }
 
 
-// 2 вариант
-// let i = 0;
-// do{ 
-//     const a = prompt('Один из последних просмотренных фильмов', '');
-//     const b = prompt('На сколько оцените его', '');
-//     i++;
-//     if ( a != null && b != null && a != '' && b != '' && a.length < 50) {
-//         personalMovieDB.movies[a] = b;
-//         console.log('done')
-//     } else {
-//         alert('Ошибка, давайте по новой!')
-//         i--;
-//     }
-//     console.log('done1');
-// } while (i < 2 );
-
-// 3 вариант
-// let i = 0;
-// while (i < 2 ){
-//     const a = prompt('Один из последних просмотренных фильмов', '');
-//     const b = prompt('На сколько оцените его', '');
-//     i++;
-//     if ( a != null && b != null && a != '' && b != '' && a.length < 50) {
-//         personalMovieDB.movies[a] = b;
-//         console.log('done')
-//     } else {
-//         alert('Ошибка, давайте по новой!')
-//         i--;
-//     }
-//     console.log('done1');
-// }
-
 if (personalMovieDB.count < 10){
     alert('Просмотрено довольно мало фильмов')
 } else if (personalMovieDB.count > 10 && personalMovieDB.count < 30) {
